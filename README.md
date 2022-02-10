@@ -11,7 +11,7 @@ To run this project, please follow those instructions
 Clone this repository:
 
 ```text
-    git clone git@xxxx.git
+    git clone git@github.com:mirlo06/bank.git
 ```
 
 Then open the project with the IDE of your choice, Right click on the main class named ExpositionApplication, and then press "run ExpositionApplication with local profile".
