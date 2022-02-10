@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+
+  h2:
+    console:
+      enabled: true
+springfox:
+  documentation:
+    swagger:
+      v2:
+        use-model-v3: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: mappings
